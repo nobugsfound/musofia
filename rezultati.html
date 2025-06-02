@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>Избрано направление</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 30px;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .button {
+            border: 1px solid #c44;
+            background-color: #fff0f0;
+            color: #c44;
+            padding: 5px 10px;
+            float: right;
+            margin-top: -30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .vertical-text {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            position: absolute;
+            left: 0;
+            top: 30%;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+<div class="vertical-text">До вас 14 мин</div>
+
+<div class="container">
+    <h2>Избрано направление</h2>
+    <p class="bold">Медицина | Дентална медицина | Фармация</p>
+
+    <button class="button">Предварителна кампания</button>
+
+    <h3>Избрани изпити</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Предмет</th>
+                <th>Входящ номер</th>
+                <th>Оценка</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="bold">Биология</td>
+                <td>25-П-1769</td>
+                <td>Добър 3.72</td>
+            </tr>
+            <tr>
+                <td class="bold">Химия</td>
+                <td>25-П-1769</td>
+                <td>Добър 3.55</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
